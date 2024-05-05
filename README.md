@@ -12,9 +12,6 @@ AirMouse is a project that allows you to control your computer's cursor using ha
 
 AirMouse utilizes MediaPipe and PyAutoGUI to detect hand landmarks and perform actions like moving the cursor and clicking based on the position of these landmarks.
 
-## Demo
-
-[Include GIFs or images demonstrating the functionality of your project.]
 
 ## Features
 
@@ -22,4 +19,8 @@ AirMouse utilizes MediaPipe and PyAutoGUI to detect hand landmarks and perform a
 - Cursor control using hand movements.
 - Simulated mouse clicks based on hand gestures.
 
-
+## Requirements
+- opencv-python==4.5.3
+- numpy==1.21.0
+- mediapipe==0.8.6.2
+- pyautogui==0.9.53
